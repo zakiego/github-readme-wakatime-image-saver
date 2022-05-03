@@ -1,3 +1,5 @@
-module github.com/zakiego/gitbuh-readme-action
+module github.com/zakiego/github-readme-wakatime-image-saver
 
 go 1.18
+
+

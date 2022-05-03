@@ -1,6 +1,6 @@
 package main
 
-import "github.com/zakiego/gitbuh-readme-action/helper"
+import "github.com/zakiego/github-readme-wakatime-image-saver/helper"
 
 func main() {
 	config := helper.ReadConfig()
