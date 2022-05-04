@@ -1,6 +1,7 @@
 package helper
 
 import (
+	"fmt"
 	"io/ioutil"
 	"net/http"
 
@@ -16,6 +17,9 @@ func GetSVG(url string) string {
 			if err != nil {
 				return err
 			}
+
+			fmt.Println("URL :", url)
+			fmt.Println("Status Code :", resp.StatusCode)
 
 			if resp.StatusCode != 200 {
 				return err
