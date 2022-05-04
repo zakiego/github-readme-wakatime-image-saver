@@ -1,52 +1,37 @@
 package helper
 
 import (
-	"fmt"
+	"errors"
 	"io/ioutil"
 	"net/http"
 
-	"github.com/avast/retry-go"
+	"github.com/hashicorp/go-retryablehttp"
 )
 
 func GetSVG(url string) string {
-	var body []byte
 
-	retry.Do(
-		func() error {
-			resp, err := http.Get(url)
-			if err != nil {
-				return err
-			}
+	c := retryablehttp.NewClient()
+	c.RetryMax = 10
 
-			fmt.Println("URL :", url)
-			fmt.Println("Status Code :", resp.StatusCode)
+	r, err := retryablehttp.NewRequest("GET", url, nil)
 
-			if resp.StatusCode != 200 {
-				return err
-			}
+	handlerShouldRetry := true
 
-			defer resp.Body.Close()
-			body, err = ioutil.ReadAll(resp.Body)
-			if err != nil {
-				return err
-			}
-
+	r.SetResponseHandler(func(*http.Response) error {
+		if !handlerShouldRetry {
 			return nil
-		},
-	)
+		}
+		handlerShouldRetry = false
+		return errors.New("retryable error")
+	})
 
-	// resp, err := http.Get(url)
+	resp, err := c.Do(r)
 
-	// if err != nil {
-	// 	log.Fatalln(err)
-	// }
-
-	// fmt.Println(resp.StatusCode)
-
-	// body, err := ioutil.ReadAll(resp.Body)
-	// if err != nil {
-	// 	log.Fatalln(err)
-	// }
+	defer resp.Body.Close()
+	body, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		panic(err)
+	}
 
 	return string(body)
 }
