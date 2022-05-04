@@ -2,7 +2,6 @@ package helper
 
 import (
 	"errors"
-	"fmt"
 	"io/ioutil"
 	"net/http"
 
@@ -12,6 +11,7 @@ import (
 func GetSVG(url string) string {
 
 	c := retryablehttp.NewClient()
+	c.RetryMax = 10
 
 	r, err := retryablehttp.NewRequest("GET", url, nil)
 
@@ -26,9 +26,6 @@ func GetSVG(url string) string {
 	})
 
 	resp, err := c.Do(r)
-
-	fmt.Println("URL :", url)
-	fmt.Println("Status Code :", resp.StatusCode)
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
