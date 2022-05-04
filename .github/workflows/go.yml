@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: "0 */12 * * *" # run every 12 hours
   push:
-    branches: [main, fix--auto-retry]
+    branches: [main]
 
 jobs:
   run:
