@@ -15,12 +15,7 @@ func GetSVG(url string) string {
 
 	r, err := retryablehttp.NewRequest("GET", url, nil)
 
-	resp, err := c.Do(r)
-
-	var handlerShouldRetry bool
-	if resp.StatusCode != 200 {
-		handlerShouldRetry = true
-	}
+	handlerShouldRetry := true
 
 	r.SetResponseHandler(func(*http.Response) error {
 		if !handlerShouldRetry {
@@ -29,6 +24,8 @@ func GetSVG(url string) string {
 		handlerShouldRetry = false
 		return errors.New("retryable error")
 	})
+
+	resp, err := c.Do(r)
 
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
