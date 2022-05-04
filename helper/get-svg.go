@@ -18,7 +18,7 @@ func GetSVG(url string) string {
 	resp, err := c.Do(r)
 
 	var handlerShouldRetry bool
-	if resp.StatusCode !git= 200 {
+	if resp.StatusCode != 200 {
 		handlerShouldRetry = true
 	}
 
