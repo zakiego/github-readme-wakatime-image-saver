@@ -1,11 +1,17 @@
 package main
 
-import "github.com/zakiego/github-readme-wakatime-image-saver/helper"
+import (
+	"github.com/zakiego/github-readme-wakatime-image-saver/helper"
+)
 
 func main() {
 	config := helper.ReadConfig()
 
-	SVG := helper.GetSVG(helper.QueryBuilder(config))
+	APIGithub := helper.APIGithubStats(config)
+	SVGGithub := helper.GetSVG(APIGithub)
+	helper.SaveSVG(SVGGithub, "github-stats.svg")
 
-	helper.SaveSVG(SVG, "stat.svg")
+	APIWakatime := helper.APIWakatimeStats(config)
+	SVGWakatime := helper.GetSVG(APIWakatime)
+	helper.SaveSVG(SVGWakatime, "wakatime-stats.svg")
 }

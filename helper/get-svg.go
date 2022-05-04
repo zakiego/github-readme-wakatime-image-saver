@@ -2,22 +2,47 @@ package helper
 
 import (
 	"io/ioutil"
-	"log"
 	"net/http"
+
+	"github.com/avast/retry-go"
 )
 
 func GetSVG(url string) string {
+	var body []byte
 
-	resp, err := http.Get(url)
+	retry.Do(
+		func() error {
+			resp, err := http.Get(url)
+			if err != nil {
+				return err
+			}
 
-	if err != nil {
-		log.Fatalln(err)
-	}
+			if resp.StatusCode != 200 {
+				return err
+			}
 
-	body, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		log.Fatalln(err)
-	}
+			defer resp.Body.Close()
+			body, err = ioutil.ReadAll(resp.Body)
+			if err != nil {
+				return err
+			}
+
+			return nil
+		},
+	)
+
+	// resp, err := http.Get(url)
+
+	// if err != nil {
+	// 	log.Fatalln(err)
+	// }
+
+	// fmt.Println(resp.StatusCode)
+
+	// body, err := ioutil.ReadAll(resp.Body)
+	// if err != nil {
+	// 	log.Fatalln(err)
+	// }
 
 	return string(body)
 }

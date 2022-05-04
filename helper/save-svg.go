@@ -20,5 +20,5 @@ func SaveSVG(svg string, namefile string) {
 		log.Fatal(err)
 	}
 
-	fmt.Println("SVG saved")
+	fmt.Println(namefile, "saved")
 }

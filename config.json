@@ -1,5 +1,13 @@
 {
-  "username": "zakiego",
-  "langs_count": 7,
-  "hide_border": true
+  "wakatime": {
+    "username": "zakiego",
+    "langs_count": 7,
+    "hide_border": true
+  },
+  "github": {
+    "username": "zakiego",
+    "show_icons": true,
+    "hide_border": true,
+    "count_private": true
+  }
 }

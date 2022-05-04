@@ -8,9 +8,21 @@ import (
 )
 
 type Config struct {
+	Wakatime Wakatime `json:"wakatime"`
+	Github   Github   `json:"github"`
+}
+
+type Wakatime struct {
 	Username   string `json:"username"`
 	LangsCount int    `json:"langs_count"`
 	HideBorder bool   `json:"hide_border"`
+}
+
+type Github struct {
+	Username     string `json:"username"`
+	ShowIcons    bool   `json:"show_icons"`
+	HideBorder   bool   `json:"hide_border"`
+	CountPrivate bool   `json:"count_private"`
 }
 
 func ReadConfig() Config {
