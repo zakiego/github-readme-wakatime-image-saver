@@ -145,7 +145,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="37.39%"
+          width="37.29%"
       >
       </rect>
     </svg>
@@ -167,7 +167,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="22.73%"
+          width="22.67%"
       >
       </rect>
     </svg>
@@ -189,7 +189,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="9.62%"
+          width="9.59%"
       >
       </rect>
     </svg>
@@ -211,7 +211,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="8.53%"
+          width="8.51%"
       >
       </rect>
     </svg>
@@ -224,7 +224,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >66 hrs 28 mins</text>
+      >68 hrs 31 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -233,7 +233,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="7.93%"
+          width="8.15%"
       >
       </rect>
     </svg>
@@ -255,7 +255,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="3.12%"
+          width="3.11%"
       >
       </rect>
     </svg>
