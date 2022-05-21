@@ -136,7 +136,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >316 hrs 44 mins</text>
+      >319 hrs 1 min</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -145,7 +145,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="37.42%"
+          width="37.56%"
       >
       </rect>
     </svg>
@@ -158,7 +158,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >190 hrs 53 mins</text>
+      >190 hrs 59 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -167,7 +167,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="22.55%"
+          width="22.49%"
       >
       </rect>
     </svg>
@@ -189,7 +189,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="9.52%"
+          width="9.49%"
       >
       </rect>
     </svg>
@@ -211,7 +211,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="8.48%"
+          width="8.45%"
       >
       </rect>
     </svg>
@@ -233,7 +233,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="8.09%"
+          width="8.07%"
       >
       </rect>
     </svg>
@@ -246,7 +246,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >26 hrs 51 mins</text>
+      >26 hrs 52 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -268,7 +268,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >12 hrs 35 mins</text>
+      >12 hrs 46 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
