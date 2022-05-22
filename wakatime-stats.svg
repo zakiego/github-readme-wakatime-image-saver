@@ -136,7 +136,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >319 hrs 1 min</text>
+      >320 hrs 31 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -145,7 +145,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="37.56%"
+          width="37.63%"
       >
       </rect>
     </svg>
@@ -167,7 +167,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="22.49%"
+          width="22.42%"
       >
       </rect>
     </svg>
@@ -189,7 +189,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="9.49%"
+          width="9.47%"
       >
       </rect>
     </svg>
@@ -211,7 +211,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="8.45%"
+          width="8.43%"
       >
       </rect>
     </svg>
@@ -224,7 +224,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >68 hrs 31 mins</text>
+      >69 hrs 2 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -233,7 +233,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="8.07%"
+          width="8.11%"
       >
       </rect>
     </svg>
@@ -246,7 +246,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >26 hrs 52 mins</text>
+      >26 hrs 53 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -255,7 +255,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="3.17%"
+          width="3.16%"
       >
       </rect>
     </svg>
