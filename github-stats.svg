@@ -5,7 +5,11 @@
         viewBox="0 0 495 195"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
       >
+        <title id="titleId">M. Zakiyuddin Munziri's GitHub Stats, Rank: A+</title>
+        <desc id="descId">Total Stars Earned: 4, Total Commits in 2022 : 4, Total PRs: 44, Total Issues: 42, Contributed to: 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -141,7 +145,6 @@
           </text>
         </g>
       </g>
-
     <svg x="0" y="0">
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
