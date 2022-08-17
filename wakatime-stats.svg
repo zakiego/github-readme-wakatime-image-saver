@@ -140,7 +140,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >573 hrs 43 mins</text>
+      >572 hrs 1 min</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -149,7 +149,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="42.45%"
+          width="42.32%"
       >
       </rect>
     </svg>
@@ -162,7 +162,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >228 hrs 16 mins</text>
+      >228 hrs 21 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -184,7 +184,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >104 hrs 44 mins</text>
+      >105 hrs 13 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -193,7 +193,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="7.75%"
+          width="7.78%"
       >
       </rect>
     </svg>
@@ -228,7 +228,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >95 hrs 23 mins</text>
+      >95 hrs 24 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -250,7 +250,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >49 hrs 42 mins</text>
+      >49 hrs 59 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -259,7 +259,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="3.68%"
+          width="3.7%"
       >
       </rect>
     </svg>
@@ -272,7 +272,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >33 hrs 31 mins</text>
+      >33 hrs 45 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -281,7 +281,7 @@
           fill="#2f80ed"
           rx="5" ry="5" x="0" y="0" 
           data-testid="lang-progress"
-          width="2.48%"
+          width="2.5%"
       >
       </rect>
     </svg>
