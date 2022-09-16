@@ -66,7 +66,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 110.44219261128505;
+        stroke-dashoffset: 110.41356759853176;
       }
     }
   
@@ -129,7 +129,7 @@
           transform="translate(0, 55)"
         >
           
-    <g data-testid="rank-circle" 
+    <g data-testid="rank-circle"
           transform="translate(400, 47.5)">
         <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
         <circle class="rank-circle" cx="-10" cy="8" r="40" />
@@ -154,10 +154,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Stars Earned:</text>
-      <text 
-        class="stat" 
-        x="190" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="190"
+        y="12.5"
         data-testid="stars"
       >36</text>
     </g>
@@ -169,10 +169,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Commits (2022):</text>
-      <text 
-        class="stat" 
-        x="190" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="190"
+        y="12.5"
         data-testid="commits"
       >2.1k</text>
     </g>
@@ -184,10 +184,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total PRs:</text>
-      <text 
-        class="stat" 
-        x="190" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="190"
+        y="12.5"
         data-testid="prs"
       >58</text>
     </g>
@@ -199,10 +199,10 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Total Issues:</text>
-      <text 
-        class="stat" 
-        x="190" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="190"
+        y="12.5"
         data-testid="issues"
       >59</text>
     </g>
@@ -214,15 +214,15 @@
     </svg>
   
       <text class="stat bold" x="25" y="12.5">Contributed to:</text>
-      <text 
-        class="stat" 
-        x="190" 
-        y="12.5" 
+      <text
+        class="stat"
+        x="190"
+        y="12.5"
         data-testid="contribs"
       >15</text>
     </g>
   </g>
-    </svg> 
+    </svg>
   
         </g>
       </svg>
