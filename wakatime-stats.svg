@@ -34,7 +34,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58; 
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #434d58;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
@@ -44,7 +44,7 @@
       fill: #4c71f2;
       display: none;
     }
-    
+
     .rank-circle-rim {
       stroke: #2f80ed;
       fill: none;
@@ -141,16 +141,16 @@
         class="stat"
         x="350"
         y="12.5"
-      >571 hrs 59 mins</text>
+      >573 hrs 41 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="45.32%"
+          width="45.38%"
       >
       </rect>
     </svg>
@@ -163,16 +163,16 @@
         class="stat"
         x="350"
         y="12.5"
-      >210 hrs 27 mins</text>
+      >210 hrs 33 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="16.67%"
+          width="16.66%"
       >
       </rect>
     </svg>
@@ -185,16 +185,16 @@
         class="stat"
         x="350"
         y="12.5"
-      >92 hrs 18 mins</text>
+      >92 hrs 19 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="7.31%"
+          width="7.3%"
       >
       </rect>
     </svg>
@@ -214,9 +214,9 @@
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="6.89%"
+          width="6.88%"
       >
       </rect>
     </svg>
@@ -236,9 +236,9 @@
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="6.88%"
+          width="6.87%"
       >
       </rect>
     </svg>
@@ -251,16 +251,16 @@
         class="stat"
         x="350"
         y="12.5"
-      >48 hrs 44 mins</text>
+      >48 hrs 53 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
-          width="3.86%"
+          width="3.87%"
       >
       </rect>
     </svg>
@@ -273,14 +273,14 @@
         class="stat"
         x="350"
         y="12.5"
-      >30 hrs 39 mins</text>
+      >30 hrs 43 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
           width="2.43%"
       >
@@ -302,7 +302,7 @@
       <rect
           height="8"
           fill="#2f80ed"
-          rx="5" ry="5" x="0" y="0" 
+          rx="5" ry="5" x="0" y="0"
           data-testid="lang-progress"
           width="2.02%"
       >
