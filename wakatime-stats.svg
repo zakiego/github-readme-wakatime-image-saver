@@ -126,7 +126,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,454 hrs 11 mins</text>
+      >1,455 hrs 9 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -172,7 +172,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >116 hrs 33 mins</text>
+      >116 hrs 41 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -218,7 +218,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >98 hrs 30 mins</text>
+      >98 hrs 37 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -282,12 +282,12 @@
     </g>
   </g><g transform="translate(0, 175)">
     <g class="stagger" style="animation-delay: 1500ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Rust">Rust:</text>
+      <text class="stat bold" y="12.5" data-testid="Markdown">Markdown:</text>
       <text
         class="stat"
         x="350"
         y="12.5"
-      >42 hrs 29 mins</text>
+      >42 hrs 32 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
