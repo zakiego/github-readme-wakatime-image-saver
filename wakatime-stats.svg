@@ -126,11 +126,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >1,460 hrs 57 mins</text>
+      >1,463 hrs 22 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="66.77%">
+      <svg data-testid="lang-progress" width="66.8%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -149,11 +149,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >231 hrs 13 mins</text>
+      >231 hrs 22 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="10.57%">
+      <svg data-testid="lang-progress" width="10.56%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -172,7 +172,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >116 hrs 41 mins</text>
+      >116 hrs 42 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -199,7 +199,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="4.6%">
+      <svg data-testid="lang-progress" width="4.59%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -218,7 +218,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >99 hrs 17 mins</text>
+      >99 hrs 20 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -245,7 +245,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="4.46%">
+      <svg data-testid="lang-progress" width="4.45%">
         <rect
             height="8"
             fill="#2f80ed"
