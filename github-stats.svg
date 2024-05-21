@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">M. Zakiyuddin Munziri's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 330, Total Commits in 2024 : 1305, Total PRs: 92, Total Issues: 111, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Stars Earned: 330, Total Commits in 2024 : 1304, Total PRs: 92, Total Issues: 111, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 42.18137698018119;
+        stroke-dashoffset: 42.1844973041231;
       }
     }
   
