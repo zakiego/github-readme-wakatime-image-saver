@@ -126,11 +126,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >2,036 hrs 55 mins</text>
+      >2,037 hrs 12 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="65.18%">
+      <svg data-testid="lang-progress" width="65.13%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -153,7 +153,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="8.08%">
+      <svg data-testid="lang-progress" width="8.07%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -176,7 +176,7 @@
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="6.86%">
+      <svg data-testid="lang-progress" width="6.85%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -218,7 +218,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >148 hrs 22 mins</text>
+      >148 hrs 39 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
@@ -241,11 +241,11 @@
         class="stat"
         x="350"
         y="12.5"
-      >145 hrs 58 mins</text>
+      >146 hrs 24 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
-      <svg data-testid="lang-progress" width="4.67%">
+      <svg data-testid="lang-progress" width="4.68%">
         <rect
             height="8"
             fill="#2f80ed"
@@ -287,7 +287,7 @@
         class="stat"
         x="350"
         y="12.5"
-      >75 hrs 33 mins</text>
+      >75 hrs 35 mins</text>
       
     <svg width="220" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="220" height="8" fill="#434d58"></rect>
